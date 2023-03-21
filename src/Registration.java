@@ -84,7 +84,6 @@ public class Registration extends JDialog {
         final String USERNAME = "root";
         final String PASSWORD = "Midhi003*";
 
-        // jdbc:mysql://localhost:3306/mydb?autoReconnect=true&userSSL=false
         try {
             Connection conn = DriverManager.getConnection(DB_URL, USERNAME, PASSWORD);
 
